@@ -2,7 +2,7 @@ const { nanoid } = require('nanoid');
 const bookshelf = require('./bookshelf');
 const { onlyWhitespace } = require('./helper');
 
-const deleteBookById = (request, h) => {
+const deleteBookByIdHandler = (request, h) => {
   const { bookId } = request.params;
 
   const index = bookshelf.findIndex((b) => b.id === bookId);
@@ -264,5 +264,5 @@ module.exports = {
   getAllBooksHandler,
   getBookByIdHandler,
   updateBookByIdHandler,
-  deleteBookById,
+  deleteBookByIdHandler,
 };
