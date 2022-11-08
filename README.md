@@ -15,4 +15,4 @@ Saran:
 - [x] Menggunakan ESLint dan salah satu style guide agar gaya penulisan kode JavaScript lebih konsisten.
 
 Tambahan:
-- Di Postman Collection telah ditambahkan 3 request yang berisi query kombinasi antara 'reading' dan 'finished'.
+- Di Postman Collection telah ditambahkan 3 request yang berisi query kombinasi 'reading' dan 'finished'.
